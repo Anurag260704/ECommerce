@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clear LocalStorage</title>
+</head>
+<body>
+    <h1>Clearing LocalStorage...</h1>
+    <script>
+        try {
+            localStorage.clear();
+            console.log('LocalStorage cleared successfully');
+            document.body.innerHTML += '<p style="color: green;">LocalStorage cleared successfully!</p>';
+        } catch (error) {
+            console.error('Error clearing localStorage:', error);
+            document.body.innerHTML += '<p style="color: red;">Error clearing localStorage: ' + error.message + '</p>';
+        }
+    </script>
+</body>
+</html>

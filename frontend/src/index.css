@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    @apply bg-white text-gray-900;
+    font-family: 'Inter', sans-serif;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-medium min-h-[2.5rem] transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary-600 text-white hover:bg-primary-700 active:bg-primary-800;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-secondary-100 text-secondary-900 hover:bg-secondary-200 active:bg-secondary-300;
+  }
+  
+  .btn-outline {
+    @apply btn border border-gray-300 bg-white hover:bg-gray-50 text-gray-900;
+  }
+  
+  .btn-ghost {
+    @apply btn hover:bg-gray-100 text-gray-900;
+  }
+  
+  .btn-outline-primary {
+    @apply btn border border-primary-300 bg-white text-primary-700 hover:bg-primary-50 active:bg-primary-100;
+  }
+  
+  .btn-outline-secondary {
+    @apply btn border border-gray-300 bg-white text-gray-700 hover:bg-gray-50 active:bg-gray-100;
+  }
+  
+  .btn-outline-error {
+    @apply btn border border-red-300 bg-white text-red-700 hover:bg-red-50 active:bg-red-100;
+  }
+  
+  .btn-error {
+    @apply btn bg-red-600 text-white hover:bg-red-700 active:bg-red-800;
+  }
+  
+  .btn-sm {
+    @apply px-3 py-1.5 text-xs min-h-[2rem];
+  }
+  
+  .btn-md {
+    @apply px-4 py-2 text-sm min-h-[2.5rem];
+  }
+  
+  .btn-lg {
+    @apply px-6 py-3 text-base min-h-[3rem];
+  }
+  
+  .input {
+    @apply flex h-10 w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  
+  .card {
+    @apply rounded-lg border bg-white shadow-sm;
+  }
+  
+  .card-header {
+    @apply flex flex-col space-y-1.5 p-6;
+  }
+  
+  .card-title {
+    @apply text-2xl font-semibold leading-none tracking-tight;
+  }
+  
+  .card-description {
+    @apply text-sm text-gray-600;
+  }
+  
+  .card-content {
+    @apply p-6 pt-0;
+  }
+  
+  .card-footer {
+    @apply flex items-center p-6 pt-0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Loading spinner */
+.spinner {
+  @apply animate-spin rounded-full border-2 border-gray-300 border-t-primary-600;
+}
+
+/* Fade in animation */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Slide up animation */
+.slide-up {
+  animation: slideUp 0.3s ease-out;
+}
+
+/* Image hover effect */
+.image-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-hover:hover {
+  transform: scale(1.05);
+}
+
+/* Price display */
+.price-original {
+  @apply text-gray-500 line-through;
+}
+
+.price-discounted {
+  @apply text-red-600 font-semibold;
+}
+
+/* Badge styles */
+.badge {
+  @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+}
+
+.badge-success {
+  @apply bg-green-100 text-green-800;
+}
+
+.badge-warning {
+  @apply bg-yellow-100 text-yellow-800;
+}
+
+.badge-error {
+  @apply bg-red-100 text-red-800;
+}
+
+.badge-info {
+  @apply bg-blue-100 text-blue-800;
+}
+
+.badge-primary {
+  @apply bg-primary-100 text-primary-800;
+}
+
+.badge-secondary {
+  @apply bg-gray-100 text-gray-800;
+}
+
+/* Rating stars */
+.star-filled {
+  @apply text-yellow-400;
+}
+
+.star-empty {
+  @apply text-gray-300;
+}
