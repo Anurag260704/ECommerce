@@ -107,4 +107,10 @@ if (process.env.NODE_ENV !== 'production') {
     });
 }
 
+//For production deployment (e.g., Vercel, Heroku)
+if (process.env.NODE_ENV === 'production') {
+    app.listen(PORT, () => {
+        logger.info(`🚀 Server running in production mode on port ${PORT}`);
+    });
+}
 module.exports = app;
