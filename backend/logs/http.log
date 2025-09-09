@@ -39883,3 +39883,485 @@
   level: 'info',
   message: '🚀 Server started successfully'
 }
+{
+  service: 'ecommerce-api',
+  port: '5000',
+  environment: 'development',
+  frontendUrl: 'http://localhost:5173',
+  database: 'Local MongoDB',
+  timestamp: '2025-09-09 08:09:03',
+  level: 'info',
+  message: '🚀 Server started successfully'
+}
+{
+  service: 'ecommerce-api',
+  port: '5000',
+  environment: 'development',
+  frontendUrl: 'http://localhost:5173',
+  database: 'Local MongoDB',
+  timestamp: '2025-09-09 08:24:21',
+  level: 'info',
+  message: '🚀 Server started successfully'
+}
+{
+  service: 'ecommerce-api',
+  query: [Object: null prototype] {
+    featured: 'true',
+    limit: '8',
+    sort: 'rating'
+  },
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  userId: 'anonymous',
+  level: 'info',
+  message: 'Fetching products',
+  timestamp: '2025-09-09 08:25:06'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '103ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '106ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 304,
+  responseTime: '108ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  message: 'GET /api/categories/featured?limit=8 304 108ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 - User: anonymous - IP: ::1',
+  level: 'http',
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 08:25:06'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '68ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '69ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 304,
+  responseTime: '70ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  message: 'GET /api/categories/featured?limit=8 304 70ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 - User: anonymous - IP: ::1',
+  level: 'http',
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 08:25:06'
+}
+{
+  service: 'ecommerce-api',
+  action: 'Products fetched successfully',
+  data: '{"resultCount":8,"totalProducts":15,"currentPage":1,"totalPages":2,"searchTerm":null,"filters":{"category":null,"priceRange":null,"brand":null,"minRating":null},"responseTime":295}',
+  userId: undefined,
+  timestamp: '2025-09-09 08:25:06',
+  level: 'info',
+  message: 'Business Logic'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/products?featured=true&limit=8&sort=rating',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '304ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/products?featured=true&limit=8&sort=rating',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '307ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/products?featured=true&limit=8&sort=rating',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 304,
+  responseTime: '308ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  message: 'GET /api/products?featured=true&limit=8&sort=rating 304 308ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 - User: anonymous - IP: ::1',
+  level: 'http',
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 08:25:06'
+}
+{
+  service: 'ecommerce-api',
+  query: [Object: null prototype] {
+    featured: 'true',
+    limit: '8',
+    sort: 'rating'
+  },
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  userId: 'anonymous',
+  level: 'info',
+  message: 'Fetching products',
+  timestamp: '2025-09-09 08:25:06'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '65ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '66ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 304,
+  responseTime: '67ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  message: 'GET /api/categories/featured?limit=8 304 67ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 - User: anonymous - IP: ::1',
+  level: 'http',
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 08:25:06'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '77ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '78ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 304,
+  responseTime: '79ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  message: 'GET /api/categories/featured?limit=8 304 79ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 - User: anonymous - IP: ::1',
+  level: 'http',
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 08:25:06'
+}
+{
+  service: 'ecommerce-api',
+  action: 'Products fetched successfully',
+  data: '{"resultCount":8,"totalProducts":15,"currentPage":1,"totalPages":2,"searchTerm":null,"filters":{"category":null,"priceRange":null,"brand":null,"minRating":null},"responseTime":184}',
+  userId: undefined,
+  timestamp: '2025-09-09 08:25:06',
+  level: 'info',
+  message: 'Business Logic'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/products?featured=true&limit=8&sort=rating',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '187ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/products?featured=true&limit=8&sort=rating',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '189ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/products?featured=true&limit=8&sort=rating',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 304,
+  responseTime: '189ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  message: 'GET /api/products?featured=true&limit=8&sort=rating 304 189ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 - User: anonymous - IP: ::1',
+  level: 'http',
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 08:25:06'
+}
+{
+  service: 'ecommerce-api',
+  query: [Object: null prototype] {
+    featured: 'true',
+    limit: '8',
+    sort: 'rating'
+  },
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  userId: 'anonymous',
+  level: 'info',
+  message: 'Fetching products',
+  timestamp: '2025-09-09 08:25:06'
+}
+{
+  service: 'ecommerce-api',
+  action: 'Products fetched successfully',
+  data: '{"resultCount":8,"totalProducts":15,"currentPage":1,"totalPages":2,"searchTerm":null,"filters":{"category":null,"priceRange":null,"brand":null,"minRating":null},"responseTime":216}',
+  userId: undefined,
+  timestamp: '2025-09-09 08:25:06',
+  level: 'info',
+  message: 'Business Logic'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/products?featured=true&limit=8&sort=rating',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '218ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/products?featured=true&limit=8&sort=rating',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '220ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/products?featured=true&limit=8&sort=rating',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 304,
+  responseTime: '221ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:06',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  message: 'GET /api/products?featured=true&limit=8&sort=rating 304 221ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 - User: anonymous - IP: ::1',
+  level: 'http',
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 08:25:06'
+}
+{
+  service: 'ecommerce-api',
+  query: [Object: null prototype] {
+    featured: 'true',
+    limit: '8',
+    sort: 'rating'
+  },
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  userId: 'anonymous',
+  level: 'info',
+  message: 'Fetching products',
+  timestamp: '2025-09-09 08:25:06'
+}
+{
+  service: 'ecommerce-api',
+  action: 'Products fetched successfully',
+  data: '{"resultCount":8,"totalProducts":15,"currentPage":1,"totalPages":2,"searchTerm":null,"filters":{"category":null,"priceRange":null,"brand":null,"minRating":null},"responseTime":295}',
+  userId: undefined,
+  timestamp: '2025-09-09 08:25:07',
+  level: 'info',
+  message: 'Business Logic'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/products?featured=true&limit=8&sort=rating',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '296ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:07',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/products?featured=true&limit=8&sort=rating',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 200,
+  responseTime: '298ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:07',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/products?featured=true&limit=8&sort=rating',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  statusCode: 304,
+  responseTime: '299ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 08:25:07',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  message: 'GET /api/products?featured=true&limit=8&sort=rating 304 299ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 - User: anonymous - IP: ::1',
+  level: 'http',
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 08:25:07'
+}
+{
+  service: 'ecommerce-api',
+  port: '5000',
+  environment: 'development',
+  frontendUrl: 'http://localhost:5173',
+  database: 'Local MongoDB',
+  timestamp: '2025-09-09 08:25:53',
+  level: 'info',
+  message: '🚀 Server started successfully'
+}
