@@ -2,12 +2,33 @@ const { body, param, query } = require('express-validator');
 
 // User registration validation
 exports.validateRegister = [
+    // Support both firstName/lastName and name field formats
+    body('firstName')
+        .optional()
+        .isLength({ min: 2, max: 25 })
+        .withMessage('First name must be between 2 and 25 characters')
+        .trim(),
+    
+    body('lastName')
+        .optional()
+        .isLength({ min: 2, max: 25 })
+        .withMessage('Last name must be between 2 and 25 characters')
+        .trim(),
+    
     body('name')
-        .notEmpty()
-        .withMessage('Name is required')
+        .optional()
         .isLength({ min: 2, max: 50 })
         .withMessage('Name must be between 2 and 50 characters')
         .trim(),
+    
+    // Custom validation to ensure at least one name format is provided
+    body().custom((value, { req }) => {
+        const { firstName, lastName, name } = req.body;
+        if (!name && (!firstName || !lastName)) {
+            throw new Error('Either provide name or both firstName and lastName');
+        }
+        return true;
+    }),
     
     body('email')
         .isEmail()

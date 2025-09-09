@@ -1,0 +1,36 @@
+# Robots.txt for ShopEasy
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+Allow: /products/
+Allow: /categories/
+Allow: /product/
+Allow: /category/
+
+# Disallow admin and user-specific pages
+Disallow: /admin/
+Disallow: /api/
+Disallow: /login
+Disallow: /register
+Disallow: /profile
+Disallow: /cart
+Disallow: /checkout
+Disallow: /orders
+Disallow: /wishlist
+
+# Disallow search and filter URLs with parameters
+Disallow: /*?*
+Disallow: /search?*
+Disallow: /products?*
+
+# Allow CSS and JS files for proper rendering
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Sitemap location
+Sitemap: https://shopeasy.com/sitemap.xml
+
+# Crawl-delay for respectful crawling (optional)
+Crawl-delay: 1

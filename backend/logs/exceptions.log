@@ -1,0 +1,286 @@
+{
+  error: TypeError: body(...).not(...).exists(...).or is not a function
+      at Object.<anonymous> (C:\Users\ANURAG THAKUR\Desktop\ECommerce\backend\middleware\validation.js:23:46)
+      at Module._compile (node:internal/modules/cjs/loader:1688:14)
+      at Object..js (node:internal/modules/cjs/loader:1820:10)
+      at Module.load (node:internal/modules/cjs/loader:1423:32)
+      at Function._load (node:internal/modules/cjs/loader:1246:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Module.require (node:internal/modules/cjs/loader:1445:12)
+      at require (node:internal/modules/helpers:135:16)
+      at Object.<anonymous> (C:\Users\ANURAG THAKUR\Desktop\ECommerce\backend\routes\auth.js:23:5),
+  level: 'error',
+  message: 'uncaughtException: body(...).not(...).exists(...).or is not a function\n' +
+    'TypeError: body(...).not(...).exists(...).or is not a function\n' +
+    '    at Object.<anonymous> (C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend\\middleware\\validation.js:23:46)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1688:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1820:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1423:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1246:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1445:12)\n' +
+    '    at require (node:internal/modules/helpers:135:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend\\routes\\auth.js:23:5)',
+  stack: 'TypeError: body(...).not(...).exists(...).or is not a function\n' +
+    '    at Object.<anonymous> (C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend\\middleware\\validation.js:23:46)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1688:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1820:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1423:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1246:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1445:12)\n' +
+    '    at require (node:internal/modules/helpers:135:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend\\routes\\auth.js:23:5)',
+  exception: true,
+  date: 'Tue Sep 09 2025 09:16:20 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 23596,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 92790784,
+      heapTotal: 43044864,
+      heapUsed: 27193928,
+      external: 20686312,
+      arrayBuffers: 18264679
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 29249.875 },
+  trace: [
+    {
+      column: 46,
+      file: 'C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend\\middleware\\validation.js',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1688,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1820,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1423,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1246,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1445,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 135,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend\\routes\\auth.js',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 09:16:20'
+}
+{
+  error: TypeError: body(...).not(...).exists(...).or is not a function
+      at Object.<anonymous> (C:\Users\ANURAG THAKUR\Desktop\ECommerce\backend\middleware\validation.js:23:46)
+      at Module._compile (node:internal/modules/cjs/loader:1688:14)
+      at Object..js (node:internal/modules/cjs/loader:1820:10)
+      at Module.load (node:internal/modules/cjs/loader:1423:32)
+      at Function._load (node:internal/modules/cjs/loader:1246:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Module.require (node:internal/modules/cjs/loader:1445:12)
+      at require (node:internal/modules/helpers:135:16)
+      at Object.<anonymous> (C:\Users\ANURAG THAKUR\Desktop\ECommerce\backend\routes\auth.js:23:5),
+  level: 'error',
+  message: 'uncaughtException: body(...).not(...).exists(...).or is not a function\n' +
+    'TypeError: body(...).not(...).exists(...).or is not a function\n' +
+    '    at Object.<anonymous> (C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend\\middleware\\validation.js:23:46)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1688:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1820:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1423:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1246:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1445:12)\n' +
+    '    at require (node:internal/modules/helpers:135:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend\\routes\\auth.js:23:5)',
+  stack: 'TypeError: body(...).not(...).exists(...).or is not a function\n' +
+    '    at Object.<anonymous> (C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend\\middleware\\validation.js:23:46)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1688:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1820:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1423:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1246:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1445:12)\n' +
+    '    at require (node:internal/modules/helpers:135:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend\\routes\\auth.js:23:5)',
+  exception: true,
+  date: 'Tue Sep 09 2025 09:16:35 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 27352,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 92217344,
+      heapTotal: 42782720,
+      heapUsed: 27258560,
+      external: 20686312,
+      arrayBuffers: 18264679
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 29265.171 },
+  trace: [
+    {
+      column: 46,
+      file: 'C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend\\middleware\\validation.js',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1688,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1820,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1423,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1246,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1445,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 135,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\ANURAG THAKUR\\Desktop\\ECommerce\\backend\\routes\\auth.js',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 09:16:35'
+}

@@ -3,8 +3,13 @@ import Footer from '../components/layout/Footer';
 import HeroSection from '../components/home/HeroSection';
 import CategoriesSection from '../components/home/CategoriesSection';
 import FeaturedProducts from '../components/home/FeaturedProducts';
+import { useSEO } from '../hooks/useSEO';
+import { getPageSEO } from '../utils/seo';
 
 const Home = () => {
+  // Initialize SEO for home page
+  useSEO(getPageSEO('home'));
+
   return (
     <>
       {/* Hero Section */}

@@ -60567,3 +60567,653 @@
   level: 'info',
   message: '🚀 Server started successfully'
 }
+{
+  service: 'ecommerce-api',
+  port: '5000',
+  environment: 'development',
+  frontendUrl: 'http://localhost:5173',
+  database: 'Local MongoDB',
+  timestamp: '2025-09-09 08:45:36',
+  level: 'info',
+  message: '🚀 Server started successfully'
+}
+{
+  service: 'ecommerce-api',
+  port: '5000',
+  environment: 'development',
+  frontendUrl: 'http://localhost:5173',
+  database: 'Local MongoDB',
+  timestamp: '2025-09-09 09:03:10',
+  level: 'info',
+  message: '🚀 Server started successfully'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/health',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  userId: 'anonymous',
+  body: undefined,
+  query: undefined,
+  params: undefined,
+  headers: {
+    authorization: '[NOT_PRESENT]',
+    contentType: undefined,
+    contentLength: undefined
+  },
+  timestamp: '2025-09-09 09:03:33',
+  level: 'debug',
+  message: 'Incoming Request Details'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/health',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 200,
+  responseTime: '2ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:03:33',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/health',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 200,
+  responseTime: '3ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:03:33',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/health',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 200,
+  responseTime: '4ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:03:33',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  message: 'GET /api/health 200 4ms - curl/8.14.1 - User: anonymous - IP: ::1',
+  level: 'http',
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 09:03:33'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  userId: 'anonymous',
+  body: undefined,
+  query: [Object: null prototype] { limit: '8' },
+  params: undefined,
+  headers: {
+    authorization: '[NOT_PRESENT]',
+    contentType: undefined,
+    contentLength: undefined
+  },
+  timestamp: '2025-09-09 09:03:44',
+  level: 'debug',
+  message: 'Incoming Request Details'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 200,
+  responseTime: '86ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:03:44',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 200,
+  responseTime: '87ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:03:44',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/api/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 200,
+  responseTime: '88ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:03:44',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  message: 'GET /api/categories/featured?limit=8 200 88ms - curl/8.14.1 - User: anonymous - IP: ::1',
+  level: 'http',
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 09:03:44'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  userId: 'anonymous',
+  body: undefined,
+  query: [Object: null prototype] { limit: '8' },
+  params: undefined,
+  headers: {
+    authorization: '[NOT_PRESENT]',
+    contentType: undefined,
+    contentLength: undefined
+  },
+  timestamp: '2025-09-09 09:03:57',
+  level: 'debug',
+  message: 'Incoming Request Details'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 404,
+  responseTime: '1ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:03:57',
+  level: 'warn',
+  message: 'API Request Failed'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 404,
+  responseTime: '1ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:03:57',
+  level: 'warn',
+  message: 'API Request Failed'
+}
+{
+  service: 'ecommerce-api',
+  method: 'GET',
+  url: '/categories/featured?limit=8',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 404,
+  responseTime: '1ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:03:57',
+  level: 'warn',
+  message: 'API Request Failed'
+}
+{
+  message: 'GET /categories/featured?limit=8 404 1ms - curl/8.14.1 - User: anonymous - IP: ::1',
+  level: 'warn',
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 09:03:57'
+}
+{
+  service: 'ecommerce-api',
+  port: '5000',
+  environment: 'development',
+  frontendUrl: 'http://localhost:5173',
+  database: 'Local MongoDB',
+  timestamp: '2025-09-09 09:15:21',
+  level: 'info',
+  message: '🚀 Server started successfully'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  userId: 'anonymous',
+  body: undefined,
+  params: {},
+  query: [Object: null prototype] {},
+  errorName: 'SyntaxError',
+  errorCode: undefined,
+  timestamp: '2025-09-09 09:15:33',
+  level: 'warn',
+  message: 'Client error'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 400,
+  responseTime: '13ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:15:33',
+  level: 'warn',
+  message: 'API Request Failed'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 400,
+  responseTime: '13ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:15:33',
+  level: 'warn',
+  message: 'API Request Failed'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 400,
+  responseTime: '14ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:15:33',
+  level: 'warn',
+  message: 'API Request Failed'
+}
+{
+  message: 'POST /api/auth/register 400 14ms - curl/8.14.1 - User: anonymous - IP: ::1',
+  level: 'warn',
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 09:15:33'
+}
+{
+  service: 'ecommerce-api',
+  port: '5000',
+  environment: 'development',
+  frontendUrl: 'http://localhost:5173',
+  database: 'Local MongoDB',
+  timestamp: '2025-09-09 09:15:50',
+  level: 'info',
+  message: '🚀 Server started successfully'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  userId: 'anonymous',
+  body: {
+    firstName: 'John',
+    lastName: 'Doe',
+    email: 'john.doe@example.com',
+    password: 'TestPassword123'
+  },
+  query: undefined,
+  params: undefined,
+  headers: {
+    authorization: '[NOT_PRESENT]',
+    contentType: 'application/json',
+    contentLength: '110'
+  },
+  timestamp: '2025-09-09 09:15:59',
+  level: 'debug',
+  message: 'Incoming Request Details'
+}
+{
+  service: 'ecommerce-api',
+  email: 'john.doe@example.com',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  timestamp: '2025-09-09 09:15:59',
+  level: 'info',
+  message: 'User registration attempt started'
+}
+{
+  service: 'ecommerce-api',
+  email: 'john.doe@example.com',
+  errors: [
+    {
+      type: 'field',
+      value: undefined,
+      msg: 'Name is required',
+      path: 'name',
+      location: 'body'
+    },
+    {
+      type: 'field',
+      value: undefined,
+      msg: 'Name must be between 2 and 50 characters',
+      path: 'name',
+      location: 'body'
+    }
+  ],
+  ip: '::1',
+  level: 'warn',
+  message: 'User registration validation failed',
+  timestamp: '2025-09-09 09:15:59'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 400,
+  responseTime: '14ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:15:59',
+  level: 'warn',
+  message: 'API Request Failed'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 400,
+  responseTime: '14ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:15:59',
+  level: 'warn',
+  message: 'API Request Failed'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 400,
+  responseTime: '15ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:15:59',
+  level: 'warn',
+  message: 'API Request Failed'
+}
+{
+  message: 'POST /api/auth/register 400 15ms - curl/8.14.1 - User: anonymous - IP: ::1',
+  level: 'warn',
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 09:15:59'
+}
+{
+  service: 'ecommerce-api',
+  port: '5000',
+  environment: 'development',
+  frontendUrl: 'http://localhost:5173',
+  database: 'Local MongoDB',
+  timestamp: '2025-09-09 09:16:44',
+  level: 'info',
+  message: '🚀 Server started successfully'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  userId: 'anonymous',
+  body: {
+    firstName: 'John',
+    lastName: 'Doe',
+    email: 'john.doe@example.com',
+    password: 'TestPassword123'
+  },
+  query: undefined,
+  params: undefined,
+  headers: {
+    authorization: '[NOT_PRESENT]',
+    contentType: 'application/json',
+    contentLength: '110'
+  },
+  timestamp: '2025-09-09 09:16:53',
+  level: 'debug',
+  message: 'Incoming Request Details'
+}
+{
+  service: 'ecommerce-api',
+  email: 'john.doe@example.com',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  timestamp: '2025-09-09 09:16:53',
+  level: 'info',
+  message: 'User registration attempt started'
+}
+{
+  service: 'ecommerce-api',
+  operation: 'User.findOne',
+  collection: 'users',
+  data: '{"email":"john.doe@example.com"}',
+  duration: '83ms',
+  timestamp: '2025-09-09 09:16:53',
+  level: 'debug',
+  message: 'Database Operation'
+}
+{
+  service: 'ecommerce-api',
+  operation: 'User.create',
+  collection: 'users',
+  data: '{"userId":"68bfa32d463ef062d4847ec3","email":"john.doe@example.com"}',
+  duration: '286ms',
+  timestamp: '2025-09-09 09:16:54',
+  level: 'debug',
+  message: 'Database Operation'
+}
+{
+  service: 'ecommerce-api',
+  operation: 'User.save',
+  collection: 'users',
+  data: '{"userId":"68bfa32d463ef062d4847ec3"}',
+  duration: '77ms',
+  timestamp: '2025-09-09 09:16:54',
+  level: 'debug',
+  message: 'Database Operation'
+}
+{
+  service: 'ecommerce-api',
+  event: 'USER_REGISTERED',
+  userId: new ObjectId('68bfa32d463ef062d4847ec3'),
+  details: {
+    email: 'john.doe@example.com',
+    firstName: 'John',
+    lastName: 'Doe',
+    ip: '::1',
+    responseTime: 451
+  },
+  timestamp: '2025-09-09 09:16:54',
+  level: 'info',
+  message: 'Authentication Event'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 201,
+  responseTime: '468ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:16:54',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 201,
+  responseTime: '468ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:16:54',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 201,
+  responseTime: '469ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:16:54',
+  level: 'http',
+  message: 'API Request'
+}
+{
+  message: 'POST /api/auth/register 201 469ms - curl/8.14.1 - User: anonymous - IP: ::1',
+  level: 'http',
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 09:16:54'
+}
+{
+  service: 'ecommerce-api',
+  port: '5000',
+  environment: 'development',
+  frontendUrl: 'http://localhost:5173',
+  database: 'Local MongoDB',
+  timestamp: '2025-09-09 09:17:05',
+  level: 'info',
+  message: '🚀 Server started successfully'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  userId: 'anonymous',
+  body: {
+    firstName: 'Jane',
+    lastName: 'Smith',
+    email: 'jane.smith@example.com',
+    password: 'weak'
+  },
+  query: undefined,
+  params: undefined,
+  headers: {
+    authorization: '[NOT_PRESENT]',
+    contentType: 'application/json',
+    contentLength: '103'
+  },
+  timestamp: '2025-09-09 09:17:20',
+  level: 'debug',
+  message: 'Incoming Request Details'
+}
+{
+  service: 'ecommerce-api',
+  email: 'jane.smith@example.com',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  timestamp: '2025-09-09 09:17:20',
+  level: 'info',
+  message: 'User registration attempt started'
+}
+{
+  service: 'ecommerce-api',
+  email: 'jane.smith@example.com',
+  errors: [
+    {
+      type: 'field',
+      value: 'weak',
+      msg: 'Password must be at least 6 characters long',
+      path: 'password',
+      location: 'body'
+    },
+    {
+      type: 'field',
+      value: 'weak',
+      msg: 'Password must contain at least one lowercase letter, one uppercase letter, and one number',
+      path: 'password',
+      location: 'body'
+    }
+  ],
+  ip: '::1',
+  level: 'warn',
+  message: 'User registration validation failed',
+  timestamp: '2025-09-09 09:17:20'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 400,
+  responseTime: '15ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:17:20',
+  level: 'warn',
+  message: 'API Request Failed'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 400,
+  responseTime: '15ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:17:20',
+  level: 'warn',
+  message: 'API Request Failed'
+}
+{
+  service: 'ecommerce-api',
+  method: 'POST',
+  url: '/api/auth/register',
+  ip: '::1',
+  userAgent: 'curl/8.14.1',
+  statusCode: 400,
+  responseTime: '16ms',
+  userId: 'anonymous',
+  timestamp: '2025-09-09 09:17:20',
+  level: 'warn',
+  message: 'API Request Failed'
+}
+{
+  message: 'POST /api/auth/register 400 16ms - curl/8.14.1 - User: anonymous - IP: ::1',
+  level: 'warn',
+  service: 'ecommerce-api',
+  timestamp: '2025-09-09 09:17:20'
+}
+{
+  service: 'ecommerce-api',
+  port: '5000',
+  environment: 'development',
+  frontendUrl: 'http://localhost:5173',
+  database: 'Local MongoDB',
+  timestamp: '2025-09-09 09:17:52',
+  level: 'info',
+  message: '🚀 Server started successfully'
+}
