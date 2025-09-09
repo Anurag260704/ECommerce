@@ -86,22 +86,25 @@ app.use((req, res) => {
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => {
-    const serverInfo = {
-        port: PORT,
-        environment: process.env.NODE_ENV || 'development',
-        frontendUrl: process.env.FRONTEND_URL || 'http://localhost:3000',
-        database: process.env.NODE_ENV === 'production' ? 'MongoDB Atlas' : 'Local MongoDB',
-        timestamp: new Date().toISOString()
-    };
-    
-    logger.info('🚀 Server started successfully', serverInfo);
-    
-    // Console logs for immediate visibility
-    console.log(`🚀 Server running on port ${PORT}`);
-    console.log(`📱 Frontend URL: ${process.env.FRONTEND_URL || 'http://localhost:3000'}`);
-    console.log(`🗄️ Database: ${process.env.NODE_ENV === 'production' ? 'MongoDB Atlas' : 'Local MongoDB'}`);
-    console.log(`📝 Logs directory: logs/`);
-});
+// For local development
+if (process.env.NODE_ENV !== 'production') {
+    app.listen(PORT, () => {
+        const serverInfo = {
+            port: PORT,
+            environment: process.env.NODE_ENV || 'development',
+            frontendUrl: process.env.FRONTEND_URL || 'http://localhost:3000',
+            database: process.env.NODE_ENV === 'production' ? 'MongoDB Atlas' : 'Local MongoDB',
+            timestamp: new Date().toISOString()
+        };
+        
+        logger.info('🚀 Server started successfully', serverInfo);
+        
+        // Console logs for immediate visibility
+        console.log(`🚀 Server running on port ${PORT}`);
+        console.log(`📱 Frontend URL: ${process.env.FRONTEND_URL || 'http://localhost:3000'}`);
+        console.log(`🗄️ Database: ${process.env.NODE_ENV === 'production' ? 'MongoDB Atlas' : 'Local MongoDB'}`);
+        console.log(`📝 Logs directory: logs/`);
+    });
+}
 
 module.exports = app;

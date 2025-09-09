@@ -59723,3 +59723,23 @@
   level: 'info',
   message: '🚀 Server started successfully'
 }
+{
+  service: 'ecommerce-api',
+  port: '5000',
+  environment: 'development',
+  frontendUrl: 'http://localhost:5173',
+  database: 'Local MongoDB',
+  timestamp: '2025-09-09 08:04:17',
+  level: 'info',
+  message: '🚀 Server started successfully'
+}
+{
+  service: 'ecommerce-api',
+  port: '5000',
+  environment: 'development',
+  frontendUrl: 'http://localhost:5173',
+  database: 'Local MongoDB',
+  timestamp: '2025-09-09 08:08:44',
+  level: 'info',
+  message: '🚀 Server started successfully'
+}
